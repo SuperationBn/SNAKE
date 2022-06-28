@@ -1,0 +1,166 @@
+/* SuperationBn */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(33, 32, 32, 0.919), rgba(36, 36, 37, 0.779)), url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#suepration {
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  position: absolute;
+  color: rgba(240, 248, 255, 0.065);
+  bottom: 20px;
+  left: 30px;
+}
+
+span {
+  color: rgb(255, 99, 99);
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 254, 0.164);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.402);
+  border-right: 1px solid rgba(255, 255, 255, 0.279);
+  border-left: 1px solid rgba(45, 44, 44, 0.591);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.427);
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: rgba(240, 248, 255, 0.894);
+}
+
+#showResul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: rgba(240, 248, 255, 0.894);
+}
+
+#textContent {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allContent {
+  position: relative;
+}
+
+#canvasBox {
+  border: 2px solid black;
+}
+
+#boxGameOver {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(7, 71, 71, 0.948);
+}
+
+#gameOverBox {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+#textOver {
+  font-size: 9rem;
+  letter-spacing: 4px;
+  font-family: 'League Gothic', sans-serif;
+}
+
+#textOver {
+  color: rgb(237, 239, 241);
+}
+
+#totalScorebox {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+#totalScore {
+  font-size: 4rem;
+  color: rgb(128, 218, 24);
+}
+
+
+#reset {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  padding: 0.2rem 2rem;
+  border-radius: 10px;
+  background-color: coral;
+  color: aliceblue;
+  font-weight: 800;
+  transition: background-color 0.2s ease-in;
+}
+
+#reset:hover {
+  background-color: rgb(255, 170, 80);
+}
+
+#themeColor {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(86, 95, 103, 0.707);
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+/* SuperationBn */
